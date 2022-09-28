@@ -213,6 +213,18 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.03em;
 }
 
+.aside {
+    gap: 30px;
+    display: flex;
+    margin-top: 28px;
+    margin-left: 44px;
+}
+
+.icon .link:hover,
+.icon .link:focus {
+    color: var(--akcent-color);
+}  
+
 .caption {
     padding-top: 94px;
 }
