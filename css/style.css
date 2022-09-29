@@ -11,6 +11,7 @@
     --border-header-color: #ECECEC;
     --box-shadow-color: rgba(0, 0, 0, 0.15);
     --border-works-color: #EEEEEE;
+    --color-icon: #AFB1B8;
 }
 
 html {
@@ -213,17 +214,40 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.03em;
 }
 
+/* Aside */
+
 .aside {
-    gap: 30px;
     display: flex;
-    margin-top: 28px;
-    margin-left: 44px;
+    align-items: center;
+    justify-content: center;
 }
 
-.icon .link:hover,
-.icon .link:focus {
-    color: var(--akcent-color);
+.aside .item {
+    width: 44px;
+    height: 44px;
+   
+} 
+
+.aside .link {
+    width: 100%;
+    height: 100%;
+    color: var(--color-icon);
+}
+
+.icon {
+    fill: currentColor;
+}
+
+.aside .link:hover,
+.aside .link:focus {
+    color: var(--border-works-color);
+    background-color: var(--akcent-color);
+    border-radius: 50%;
 }  
+
+.icon:hover {
+    color: var(--border-works-color);
+} 
 
 .caption {
     padding-top: 94px;
