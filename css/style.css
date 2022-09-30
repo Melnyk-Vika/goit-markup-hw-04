@@ -77,6 +77,15 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+.picture {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8)), url('../img/Imgi1.jpeg');
+    background-position: center; 
+}
+
 /* Logo */
 
 .logo {
@@ -226,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 .aside .item {
     width: 44px;
     height: 44px;
-   gap: 30px;
+    gap: 30px;
 } 
 
 .aside .link {
@@ -235,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-icon);
 }
 
-.icon {
+.icon-link {
     fill: currentColor;
 }
 
@@ -545,6 +554,58 @@ h1, h2, h3, h4, h5, h6 {
 
 .address .item {
     margin-bottom: 9px;
+}
+
+.socials {
+    margin-top: 0;
+    align-items: baseline;
+    
+    margin-left: 70px;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socials .title {
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon .item {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    gap: 30px;
+}
+
+.footer-icon .link {
+    width: 100%;
+    height: 100%;
+    color: var(--primary-white-color);
+}
+
+.icons {
+    fill: currentColor;
+}
+
+.footer-icon .link:hover,
+.footer-icon .link:focus  {
+    background-color: var(--akcent-color);
+    border-radius: 50%;
 }
 
 .box  {
