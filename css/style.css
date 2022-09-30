@@ -220,12 +220,13 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 16px;
 }
 
 .aside .item {
     width: 44px;
     height: 44px;
-   
+   gap: 30px;
 } 
 
 .aside .link {
