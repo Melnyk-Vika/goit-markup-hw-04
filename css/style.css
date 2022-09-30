@@ -268,6 +268,8 @@ h1, h2, h3, h4, h5, h6 {
     gap: 30px;
 }
 
+/* Visually */
+
 .visually {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -284,8 +286,7 @@ h1, h2, h3, h4, h5, h6 {
      clip: rect(0 0 0 0);
      clip-path: inset(50%);
      margin: -1px;
-   }
-
+   }   
 
 /* Features */
 
@@ -479,6 +480,10 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid var(--border-works-color);  */
     padding-right: auto;
     padding-left: auto;
+}
+
+.works .items:hover {
+    background-color: linear-gradient(rgba(47, 48, 58, 0.4)) ;
 }
 
 .features {
