@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .conect-icon {
     margin-right: 10px;
-    color: currentColor;
+    fill: currentColor;
 }
 
 .conect-icon:hover, 
@@ -261,19 +261,19 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.icon-link {
+.icon {
     fill: currentColor;
 }
 
 .aside .link:hover,
 .aside .link:focus {
-    color: var(--border-works-color);
+    color: var(--primary-white-color);
     background-color: var(--akcent-color);
 }  
 
-.icon-link:hover
+.icon-link:hover,
 .icon-link:focus {
-    color: var(--border-works-color);
+    color: var(--primary-white-color);
 } 
 
 .caption {
@@ -369,6 +369,10 @@ h1, h2, h3, h4, h5, h6 {
 .work-list .item {
     background-color: var(--primary-white-color);
     flex-basis: calc((100% - 90px) / 4);
+}
+
+.icon-link {
+    fill: currentColor;
 }
 
 .team {
@@ -557,18 +561,19 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.icon-link {
-    fill: currentColor;
-}
-
 .customers .icon:hover,
 .customers .icon:focus {
-    color: var(--primary-white-color);
+    color: var(--akcent-color);
+    
 }
 
-.customers .link:hover,
-.customers .link:focus {
-    color: var(--akcent-color);
+
+.customers .item:hover,
+.customers .item:focus {
+    width: 170px;
+    height: 92px;
+   
+    border: 1px solid var(--akcent-color);
 }  
 
 /* Footer */
