@@ -578,6 +578,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 
+.footer-container {
+    display: flex;
+}
+
 .contacts {
     align-items: baseline;
 }
@@ -642,6 +646,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: baseline;
     margin-top: 0;
     margin-right: auto;
+    margin-left: 70px;
 }
 
 .footer-icon {
@@ -680,10 +685,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-white-color);
     border-radius: 50%;
    
-    gap: 30px;
+    gap: 10px;
     background-size: contain;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
 }
 
 .icons {
